@@ -1,6 +1,6 @@
 {
   "short_name": "QR Code",
-  "name": "React QR Code",
+  "name": "QR Code Information, Generation and Translation",
   "icons": [
     {
       "src": "logo.png",
