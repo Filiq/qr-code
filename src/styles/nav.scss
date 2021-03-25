@@ -1,0 +1,46 @@
+.header {
+  min-height: 5vh;
+  background-color: #2b6be2;
+  padding: 1rem 0;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+    h1 {
+      a {
+        text-decoration: none;
+        color: #f2f2f2;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      flex: 0.35;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #f2f2f2;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .header {
+    nav {
+      flex-direction: column;
+
+      ul {
+        margin-top: 0.5rem;
+        width: 100%;
+      }
+    }
+  }
+}
